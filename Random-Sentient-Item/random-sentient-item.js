@@ -26,7 +26,6 @@ const result4 = table4Draw.results[0].getChatText();
 
 
 // Create Chat Msg
-// Create Chat Msg
 await ChatMessage.create({
     content: `<br><h2>Random Sentient Item</h2><br>
     • <b>Communication:</b> ${result1}<br>
