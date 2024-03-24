@@ -1,6 +1,4 @@
 // I know a guy tables
-// 
-
 // Plot Hooks
 
 needs help recovering something from a dungeon
