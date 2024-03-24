@@ -1,7 +1,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.ZXYIKE3PRVy4oPKs');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.ZXYIKE3PRVy4oPKs');
+
 const trait = "Enunciation & Diction"
 
 const table1Draw = await traitTable.draw({displayChat: false});

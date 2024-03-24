@@ -1,7 +1,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.gOmsPu0cQFTfC4ui');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.gOmsPu0cQFTfC4ui');
+
 const trait = "Environment"
 
 const table1Draw = await traitTable.draw({displayChat: false});

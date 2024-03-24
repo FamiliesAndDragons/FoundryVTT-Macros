@@ -5,10 +5,10 @@
 
 // CHANGE CODE BELOW //
 race = "Orc";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.PybCTNGJnDwwK2bs');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.lew2z5TAzCY97aKN');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.PybCTNGJnDwwK2bs');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.lew2z5TAzCY97aKN');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.k16AJRstdmVAkuDr');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.k16AJRstdmVAkuDr');
 // CHANGE CODE ABOVE //
 
 

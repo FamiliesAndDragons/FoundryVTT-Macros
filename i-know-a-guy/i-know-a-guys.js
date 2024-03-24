@@ -1,13 +1,10 @@
-// Random Sentient Magic Item
+// I know a guy house rule
 // Created By twitch.tv/CantFindGeorge
 
-// Orginal "I know a guy" concept: 
+// Orginal "I know a guy" concept by David Nett: https://threadreaderapp.com/thread/978657181229711360.html
 
 // Assign Table Values
-const locationTable = await fromUuid('');
-const plotHookTable = await fromUuid('');
-
-
+const plotHookTable = await fromUuid('Compendium.world.pc-roll-tables.RollTable.mvOy2lhG9us3l3e7');
 
 // CSS Styling 
 const style = `
@@ -27,35 +24,32 @@ const style = `
 
 </style>`;
 
-
 // Create a Header
 const header = `
     <div class="margins">
-        <h2>I know a guy...</h2>
+        <h2>I know a guy who...</h2>
         <br>
-        <ol>
 `;
 
 //Create arrays to store generated things
-let iKnowAGuy = [];
+let aGuy = [];
 
 // Create a loop to generate 5 "I know a guy" statements
 for(let i=0;i<5;i++){
-    
-    // Roll Location
-    const locationDraw = await locationTable.draw({displayChat: false});
-    const generatedLocation = locationDraw.results[0].getChatText();
 
     // Roll Plot Hook
     const plotHookDraw = await plotHookTable.draw({displayChat: false});
     const generatedPlotHook = plotHookDraw.results[0].getChatText();
-    
-    // Creates ordered list item then saves html in iKnowAGuy array
-    generatedHTML = `<li>Located <span class="keyinfo">${generatedLocation}</span>, who <span class="keyinfo">${generatedPlotHook}</span>.</li>`;
-    iKnowAGuy.push(generatedHTML);
+
+    aGuy.push(generatedPlotHook);
 };
 
 // Create Public Chat Msg
 await ChatMessage.create({
-    content: style + header + iKnowAGuy[0] +`<br>`+ iKnowAGuy[1] +`<br>`+ iKnowAGuy[2] +`<br>`+ iKnowAGuy[3] +`<br>`+ iKnowAGuy[4] + `</ol><br>`,
+    content: style + header + `
+    • ${aGuy[0]} <br>
+    • ${aGuy[1]} <br>
+    • ${aGuy[2]} <br>
+    • ${aGuy[3]} <br>
+    • ${aGuy[4]} <br></div>`,
 });

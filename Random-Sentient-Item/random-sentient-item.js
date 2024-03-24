@@ -3,10 +3,10 @@
 
 
 // Assign Table Values
-const communicationTable = await fromUuid('Compendium.world.roll-tables.RollTable.QzXRBcswJ1MaPSCm');
-const sensesTable = await fromUuid('Compendium.world.roll-tables.RollTable.8FS4U9TgcXaztjJu');
-const alignmentTable = await fromUuid('Compendium.world.roll-tables.RollTable.8vYB8zKnGZH7coAw');
-const specialPurposeTable = await fromUuid('Compendium.world.roll-tables.RollTable.Lti1coReR6hGHKOF');
+const communicationTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.QzXRBcswJ1MaPSCm');
+const sensesTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.8FS4U9TgcXaztjJu');
+const alignmentTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.8vYB8zKnGZH7coAw');
+const specialPurposeTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.Lti1coReR6hGHKOF');
 
 // Roll Table 1
 const table1Draw = await communicationTable.draw({displayChat: false});

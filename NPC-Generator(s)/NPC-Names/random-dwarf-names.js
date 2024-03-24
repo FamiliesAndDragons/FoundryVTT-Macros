@@ -7,7 +7,7 @@ race = "Dwarf";
 maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.N4Xsq8xdF7fmMa96');
 femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.pQBaSaioAKJu5UAb');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.YmczFnefxIkpvAuR');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.YmczFnefxIkpvAuR');
 // CHANGE CODE ABOVE //
 
 

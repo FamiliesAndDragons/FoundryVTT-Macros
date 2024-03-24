@@ -4,12 +4,8 @@
 
 
 // CHANGE CODE BELOW //
-race = "Githzerai";
-maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.O79OlzYixcieddeX');
-femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.JgE1h1eBrau2tMXI');
-
-// CHANGE CODE ABOVE //
-
+race = "Dragon";
+let firstNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.1OusgZiBNN2tSWFs');
 
 
 let names = [];
@@ -21,24 +17,18 @@ for(let i=0;i<5;i++){
     // Gender Array
     const tableTypes = ['M','F'];
 
-    //Find value from array
+    //Find value from gender array
     const randomElement = tableTypes[Math.floor(Math.random() * tableTypes.length)];
-    // Determine Fist Name table based on gender
-    let firstNameTable
-        if (randomElement == "M"){
-            firstNameTable = maleNameTable;    
-        } else {
-            firstNameTable = femaleNameTable;
-        };
+
+
   // roll names
     // Creates Name 1
     const firstNameDraw = await firstNameTable.draw({displayChat: false});
     const firstName = firstNameDraw.results[0].getChatText();
 
-    const generatedName = firstName;
     const generatedGender = randomElement;
 
-  names.push(generatedName);
+  names.push(firstName);
   gender.push(generatedGender);
 };
 

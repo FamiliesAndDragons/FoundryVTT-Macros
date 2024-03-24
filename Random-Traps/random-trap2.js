@@ -2,7 +2,6 @@
 // Created By twitch.tv/CantFindGeorge
 
 // Assigns table values
-damageSeverityTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.02xPLQ61Boldcnat')
 trapTypeTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.hKNG0BbJ8lmpuFk4');
 trapFlavorTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.FBz3s3phe5kflM2k');
 trapTriggerTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.2RkZRvqr1MSw00BU');
@@ -33,7 +32,6 @@ const header = `
                 <th>Type</th>
                 <th>Flavor</th>
                 <th>Trigger</th>
-                <th>Severity</th>
             </thead>
 `;
 
@@ -42,7 +40,6 @@ let n = 1
 let finalTrap = [];
 for(let i=0;i<5;i++){
 
-    // Roll Trap Type
     const table1Draw = await trapTypeTable.draw({displayChat: false});
     const trapsTypes = table1Draw.results[0].getChatText();
 
@@ -54,10 +51,6 @@ for(let i=0;i<5;i++){
     const table3Draw = await trapTriggerTable.draw({displayChat: false});
     const trapsTriggers = table3Draw.results[0].getChatText();
 
-    // Roll Damage Severity
-    const table4Draw = await damageSeverityTable.draw({displayChat: false});
-    const trapDamage = table4Draw.results[0].getChatText();
-
 
     // creates tr & td then saves html in finalTrap array
     generatedHTML = `
@@ -66,7 +59,6 @@ for(let i=0;i<5;i++){
             <td class="center">${trapsTypes}</td>
             <td class="center">${trapsFlavors}</td>
             <td class="center">${trapsTriggers}</td>
-            <td class="center">${trapDamage}</td>
         </tr>
     `;
     n++;
@@ -89,4 +81,4 @@ new Dialog({
 
     buttons: {cls: {icon: "<i class='fas fa-check'></i>", label: "Close"}}
 
-}, {id: "center"}).render(true, {hight:900, width: 800});
+}, {id: "center"}).render(true, {hight:800, width: 600});

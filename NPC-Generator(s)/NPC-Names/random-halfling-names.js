@@ -5,10 +5,10 @@
 
 // CHANGE CODE BELOW //
 race = "Halfling";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.UJ0kiyzbSswF4Qnc');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.l9VWbnvUBKBmF9Bk');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.UJ0kiyzbSswF4Qnc');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.l9VWbnvUBKBmF9Bk');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.TwBLhSv2uDsk8LeB');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.TwBLhSv2uDsk8LeB');
 // CHANGE CODE ABOVE //
 
 

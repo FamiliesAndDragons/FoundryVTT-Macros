@@ -5,10 +5,10 @@
 
 // CHANGE CODE BELOW //
 race = "Gnome";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.eRMd8DUnaYdSabIx');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.fI537C45SnF3s9hM');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.eRMd8DUnaYdSabIx');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.fI537C45SnF3s9hM');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.pR46HAiAvW8PpEUu');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.pR46HAiAvW8PpEUu');
 // CHANGE CODE ABOVE //
 
 

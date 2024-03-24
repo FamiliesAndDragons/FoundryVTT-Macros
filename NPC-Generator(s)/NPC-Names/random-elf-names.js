@@ -5,11 +5,11 @@
 
 // CHANGE CODE BELOW //
 race = "Elf";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.DGM3UyI5IPXBLpck');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.2nst7BTsW55jKLeA');
-kidNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.vTWTGRFEeCRB8S0I');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.DGM3UyI5IPXBLpck');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.2nst7BTsW55jKLeA');
+kidNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.vTWTGRFEeCRB8S0I');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.h74XNK0uhSuu5veQ');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.h74XNK0uhSuu5veQ');
 // CHANGE CODE ABOVE //
 
 

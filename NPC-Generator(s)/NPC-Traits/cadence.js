@@ -1,7 +1,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.IBx5KNBnddjc2Zzx');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.IBx5KNBnddjc2Zzx');
+
 const trait = "Cadence"
 
 const table1Draw = await traitTable.draw({displayChat: false});

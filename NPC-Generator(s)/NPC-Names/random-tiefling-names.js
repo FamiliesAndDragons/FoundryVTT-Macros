@@ -4,12 +4,12 @@
 
 
 // CHANGE CODE BELOW //
-race = "";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.QfQXDasFRwWZH7RB');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.NAPnSfZtalWvgKIs');
+race = "Tiefling";
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.QfQXDasFRwWZH7RB');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.NAPnSfZtalWvgKIs');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.PPCZ7dwLCqH9DsFs');
-virtueTable = await fromUuid('Compendium.world.roll-tables.RollTable.CDsyElfqDGXpXbuh');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.PPCZ7dwLCqH9DsFs');
+virtueTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.CDsyElfqDGXpXbuh');
 // CHANGE CODE ABOVE //
 
 

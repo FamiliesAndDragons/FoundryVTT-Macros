@@ -5,8 +5,8 @@
 
 // CHANGE CODE BELOW //
 race = "Half-Orc";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.beVNJGBaBnUjEymL');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.yVTSG4Lc5O1nznio');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.beVNJGBaBnUjEymL');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.yVTSG4Lc5O1nznio');
 
 // CHANGE CODE ABOVE //
 
@@ -35,7 +35,7 @@ for(let i=0;i<5;i++){
     const firstNameDraw = await firstNameTable.draw({displayChat: false});
     const firstName = firstNameDraw.results[0].getChatText();
 
-    const generatedName = firstName + " " + lastName;
+    const generatedName = firstName;
     const generatedGender = randomElement;
 
   names.push(generatedName);

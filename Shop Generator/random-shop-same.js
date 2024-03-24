@@ -1,7 +1,7 @@
 // Shop Name Generator by CantFindGeorge
 
-const prefixTable = await fromUuid('Compendium.world.roll-tables.RollTable.dsNA2INfgBwMNbiO');
-const suffixTable = await fromUuid('Compendium.world.roll-tables.RollTable.NK0R2kjK5OqPPOyI');
+const prefixTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.dsNA2INfgBwMNbiO');
+const suffixTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.NK0R2kjK5OqPPOyI');
 
 
 // Roll Name 1

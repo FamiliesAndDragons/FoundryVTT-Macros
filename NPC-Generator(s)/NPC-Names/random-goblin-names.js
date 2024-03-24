@@ -5,9 +5,9 @@
 
 // CHANGE CODE BELOW //
 race = "Goblin";
-firstNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.DXGt3gXK0szm7iy3');
+firstNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.DXGt3gXK0szm7iy3');
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.j2ZDAQM9XfCFyshJ');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.j2ZDAQM9XfCFyshJ');
 // CHANGE CODE ABOVE //
 
 

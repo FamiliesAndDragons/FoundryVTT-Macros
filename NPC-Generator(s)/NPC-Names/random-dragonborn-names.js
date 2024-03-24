@@ -6,9 +6,10 @@
 // CHANGE CODE BELOW //
 race = "Dragonborn";
 maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.SKAJDFB1BQ9XXeRS');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.E2gJvhC0iwawTAMT');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.E2gJvhC0iwawTAMT');
+scalesTables = await fromUuid('Compendium.world.gm-roll-tables.RollTable.p4GuJNiT92zh9QQd')
 
-surnameTable = await fromUuid('Compendium.world.roll-tables.RollTable.vM9Kep9nCKxwZZVh');
+surnameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.vM9Kep9nCKxwZZVh');
 // CHANGE CODE ABOVE //
 
 

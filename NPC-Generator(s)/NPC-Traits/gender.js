@@ -2,7 +2,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.W6fQr3m0jWtZxIOJ');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.W6fQr3m0jWtZxIOJ');
+
 const trait = "Gender"
 
 const table1Draw = await traitTable.draw({displayChat: false});

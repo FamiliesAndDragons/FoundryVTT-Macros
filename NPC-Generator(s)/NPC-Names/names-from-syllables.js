@@ -1,13 +1,11 @@
 // Createn 5 Names from Syllable Tables from the GM Scrren
 // Created By twitch.tv/CantFindGeorge
 
-// More FoundryVTT Macros available at: 
-
 
 // Change these Syllable Table IDs
-const prefixTable = await fromUuid('Compendium.world.roll-tables.RollTable.fcQEFOukAGG9h4tK');
-const middleTable = await fromUuid('Compendium.world.roll-tables.RollTable.BFVF5aXgGdzvAeEV');
-const suffixTable = await fromUuid('Compendium.world.roll-tables.RollTable.boDm1TcOTwqzfQ6Y');
+const prefixTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.fcQEFOukAGG9h4tK');
+const middleTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.BFVF5aXgGdzvAeEV');
+const suffixTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.boDm1TcOTwqzfQ6Y');
 
 
 // Creates an array to store stuff

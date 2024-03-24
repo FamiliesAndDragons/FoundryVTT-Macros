@@ -5,8 +5,8 @@
 
 // CHANGE CODE BELOW //
 race = "Githyanki";
-maleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.ZZhiCHYC8rwzypOa');
-femaleNameTable = await fromUuid('Compendium.world.roll-tables.RollTable.EhDBiHFjU86TRS0Q');
+maleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.ZZhiCHYC8rwzypOa');
+femaleNameTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.EhDBiHFjU86TRS0Q');
 
 // CHANGE CODE ABOVE //
 

@@ -1,7 +1,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.SRdtdvwdMHWdCPIQ');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.SRdtdvwdMHWdCPIQ');
+
 const trait = "Breath Control"
 
 const table1Draw = await traitTable.draw({displayChat: false});

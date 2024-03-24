@@ -1,107 +1,79 @@
-// Locations
-
-down by the docks
-in the market district
-at the old abandoned mill
-at the local tavern
-just outside town
-in the nearby forest
-the previous town
-the next town
-your home town
-in the sewers
-by the goblin camp
-among the ruins
-at the alchemist's shop
-on the outskirts of town
-under the waterfall
-amidst the standing stones
-inside a hidden cave
-along a trade route
-by a sacred shrine
-in a haunted graveyard
-near the wizard's tower
-in the wizard's tower
-at the crossroads
-up in the hill
-across the river
-a few streets away
-within a magical library
-near a celestial observatory
-within a labyrinth or catacombs
-at the entrance to the Underdark
-amidst the ruins of an old castle
-near the frozen wastes
-within the volcanic caverns
-at the nexus of ley lines
-within an abandoned laboratory
-amidst the shifting sands of the desert
-near the misty moors
-among the glowing mushrooms in the cave
-in a Myconid Circle
-at the lighthouse
-at the top of a mountain peak
-near the ancient burial grounds
-within the belly of a massive beast
-in ruins of an ancient civilization frozen in time
-within a living crystal cavern
-within a living forest
-only inside of your dreams but is also very real
-on the back of a colossal turtle
-nestled within a giant hollow tree
-beneath the roots of a sentient tree
-amidst the swirling vortex of a magical storm
-within the body of a colossal sandworm
-within a pocket dimension
-on a floating airship they call home
-within the dreamscape of a sleeping deity
-
-
+// I know a guy tables
+// 
 
 // Plot Hooks
 
 needs help recovering something from a dungeon
-is expecting you to deliver a map to a hidden dungeon
+is expecting you to deliver intel
 has been repairing a weapon or piece of armor for you
-
-
 needs an escort for a dangerous journey
 needs you to deliver a message discreetly
 seeks aid in unraveling a conspiracy
 wants to hire adventurers for a monster hunt
 requires help with a cursed item
 seeks help in retrieving a stolen artifact
-wants to hire a bard for a special performance
+requested you bring a bard for a special performance
+wants you to attend a party (+ your "bois")
 needs a bodyguard for a diplomatic mission
-has a job involving negotiating with giants
-has a job involving negotiating with goblins
-has a job involving negotiating with kobolds
-has a job involving negotiating with a hag
+needs a translator to negotiate with giants
+needs a translator to negotiate with giants
+needs a translator to negotiate with goblins
+needs a translator to negotiate with kobolds
+needs a translator to negotiate with leonin
+needs a translator to negotiate with naga
+needs a translator to negotiate with minotaurs
+needs a translator to negotiate with aarokocra
+needs a translator to negotiate with loxodon
+needs a translator to negotiate with a hag
+needs a translator to negotiate with a dragon
+needs a translator to negotiate with gnolls
+needs a translator to negotiate with animals
+needs a translator to negotiate with the dead
+needs a translator to negotiate in elvish
+needs a translator to negotiate in elvish
+needs a translator to negotiate in halfling
+needs a translator to negotiate in merfolk
+needs a translator to negotiate in gnomish
+needs a translator to negotiate in gith
+needs a translator to negotiate in omfernal
+needs a translator to negotiate in sylvan
+needs a translator to negotiate in thieves cant
+needs a translator to negotiate in undead
+needs a translator to negotiate in undercommon
+needs a translator to negotiate in celestial
+needs a translator to negotiate in abyssal
+needs a translator to negotiate in druidic
+needs a translator to negotiate in primordial
+needs a translator to negotiate in deep speech
+needs a translator to negotiate in sylvan
+asked you to represent them in "orc court"
 requires help with a magical experiment
 seeks aid in deciphering an ancient map
-needs help dealing with a fey creature
+seeks aid in deciphering an ancient text
+needs help breaking a magical contract
 seeks help with a curse or hex
-equires protection from a rival gang
+requires protection from a rival gang
 seeks help solving a riddle or puzzle
-wants to sell a valuable item
+wants to appraise a rare item
 wants to fence a valuable and hot item
-needs help finding a lost pet or familiar
-needs help rescuing a kidnapped loved one
+is looking for their lost pet or familiar
+asked for help rescuing a loved one of theirs
 wants assistance in deciphering an ancient prophecy
 has a task involving navigating a deadly labyrinth
 needs assistance in tracking down a notorious thief
 wants to hire bodyguards for a dangerous expedition
-requires help with a dangerous monster infestation
-has information about a secret society's plans
+requires help with an "infestation" of sorts
+needs help infiltrating a secret society
 needs aid in negotiating a delicate peace treaty
 requires assistance with a dark magical ritual
 needs help navigating a treacherous swamp
 seeks aid in dealing with a powerful vampire lord
 requires help with a dangerous alchemical experiment
-has information about a legendary weapon's whereabouts
-needs assistance in solving a series of mysterious disappearances
-has a task of retrieving a rare magical ingredient
-needs aid in escaping a cult
+needs assistance solving a series of mysterious disappearances
+tasked you with retrieving a rare ingredient
+is undercover in a cult
 requires assistance in restoring a noble's reputation
-has information about a hidden portal to another plane of existence
+is stuck in a pocket dimension
+
+
 

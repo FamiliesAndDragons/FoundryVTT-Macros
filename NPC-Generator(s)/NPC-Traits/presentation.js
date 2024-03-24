@@ -1,7 +1,8 @@
 
 // Created by twitch.tv/CantFindGeorge
 
-const traitTable = await fromUuid('Compendium.world.roll-tables.RollTable.ahmECBg5GuqUz1x4');
+const traitTable = await fromUuid('Compendium.world.gm-roll-tables.RollTable.ahmECBg5GuqUz1x4');
+
 const trait = "Presentation"
 
 const table1Draw = await traitTable.draw({displayChat: false});
