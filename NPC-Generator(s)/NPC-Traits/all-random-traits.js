@@ -56,7 +56,7 @@ const presentation = pDraw.results[0].getChatText();
 
 // Roll Race
 const rDraw = await raceTable.draw({displayChat: false});
-const race = rDraw.results[0].getChatText();
+const race = rDraw.results[0].text;
 
 // Roll Tone & Accent
 const tnaDraw = await tnaTable.draw({displayChat: false});
